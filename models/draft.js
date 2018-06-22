@@ -13,6 +13,9 @@ var DraftSchema = new mongoose.Schema({
   },
   rating: {
     type: Number,
+  },
+  festival: {
+    type: String
   }
 });
 
